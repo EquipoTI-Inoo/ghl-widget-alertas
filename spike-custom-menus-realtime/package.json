@@ -1,0 +1,16 @@
+{
+  "name": "spike-custom-menus-realtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spike técnico: validar entrega de alertas en tiempo real dentro de un panel embebido via Custom Menus de GHL",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
